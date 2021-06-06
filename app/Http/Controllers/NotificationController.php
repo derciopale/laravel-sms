@@ -14,7 +14,7 @@ class NotificationController extends Controller
         $message = $client->message()->send([
             'to' => '+258840394038',
             'from' => 'Pale Beatz',
-            'text' => 'Caro Cliente, o seu documento encontra-se disponivel, pode acessar atraves do link www.docmoz.com'
+            'text' => 'Ola Mundo!'
         ]);
  
         dd('Mensagem enviada.');
